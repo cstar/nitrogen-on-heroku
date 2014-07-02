@@ -1,0 +1,1 @@
+web: erl -pa ebin ./deps/*/ebin ./deps/*/include -config "app.config" -sname nitrogen -noshell -boot start_sasl -env ERL_FULLSWEEP_AFTER 0 -s nitrogen_app
