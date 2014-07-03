@@ -18,3 +18,6 @@ I generated the template from Nitrogen with `make rel_cowboy`, took the generate
 - Added [Procfile](https://github.com/cstar/nitrogen-on-heroku/blob/master/Procfile)
 - Added [.preferred_otp_version](https://github.com/cstar/nitrogen-on-heroku/blob/master/.preferred_otp_version)
 - Changed the supervisor to get HTTP port value from the [environment](https://github.com/cstar/nitrogen-on-heroku/blob/master/src/nitrogen_sup.erl#L33)
+
+## License
+MIT license, just like Nitrogen. It's not like I wrote code.
